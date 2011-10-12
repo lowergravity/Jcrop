@@ -5,8 +5,8 @@
 
 .jcrop-vline,
 .jcrop-hline {
-    background: white url('Jcrop.gif') top left repeat;
-    font-size: 0px;
+    background: #fff url('Jcrop.gif') top left repeat;
+    font-size: 0;
     position: absolute;
 }
 
@@ -21,11 +21,11 @@
 }
 
 .jcrop-vline.right {
-    right: 0px;
+    right: 0;
 }
 
 .jcrop-hline.bottom {
-    bottom: 0px;
+    bottom: 0;
 }
 
 .jcrop-handle {
@@ -41,12 +41,12 @@
 
 .custom .jcrop-vline,
 .custom .jcrop-hline {
-    background: yellow;
+    background: #ff0;
 }
 
 .custom .jcrop-handle {
-    background-color: #C7BB00;
-    border-color: black;
+    background-color: #c7bb00;
+    border-color: #000;
     -moz-border-radius: 3px;
     -webkit-border-radius: 3px;
 }
