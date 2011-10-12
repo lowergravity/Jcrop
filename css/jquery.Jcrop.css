@@ -1,33 +1,52 @@
 /* Fixes issue here http://code.google.com/p/jcrop/issues/detail?id=1 */
-.jcrop-holder { text-align: left; }
-
-.jcrop-vline, .jcrop-hline
-{
-	font-size: 0px;
-	position: absolute;
-	background: white url('Jcrop.gif') top left repeat;
+.jcrop-holder {
+    text-align: left;
 }
-.jcrop-vline { height: 100%; width: 1px !important; }
-.jcrop-hline { width: 100%; height: 1px !important; }
-.jcrop-vline.right { right: 0px; }
-.jcrop-hline.bottom { bottom: 0px; }
+
+.jcrop-vline,
+.jcrop-hline {
+    background: white url('Jcrop.gif') top left repeat;
+    font-size: 0px;
+    position: absolute;
+}
+
+.jcrop-vline {
+    height: 100%;
+    width: 1px !important;
+}
+
+.jcrop-hline {
+    height: 1px !important;
+    width: 100%;
+}
+
+.jcrop-vline.right {
+    right: 0px;
+}
+
+.jcrop-hline.bottom {
+    bottom: 0px;
+}
+
 .jcrop-handle {
-	font-size: 1px;
-	border: 1px #eee solid;
-	background-color: #333;
+    background-color: #333;
+    border: 1px #eee solid;
+    font-size: 1px;
 }
 
-.jcrop-tracker { width: 100%; height: 100%; }
+.jcrop-tracker {
+    height: 100%;
+    width: 100%;
+}
 
 .custom .jcrop-vline,
-.custom .jcrop-hline
-{
-	background: yellow;
+.custom .jcrop-hline {
+    background: yellow;
 }
-.custom .jcrop-handle
-{
-	border-color: black;
-	background-color: #C7BB00;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
+
+.custom .jcrop-handle {
+    background-color: #C7BB00;
+    border-color: black;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
 }
